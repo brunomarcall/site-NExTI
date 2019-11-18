@@ -1,3 +1,27 @@
+a:hover, a:focus, a:active {
+	color: #FFC500;
+  }
+
+
+
+  
+h1{
+	padding: 25px;
+}
+
+
+p {
+	text-align: justify;
+	text-indent: 50px;
+}
+
+  #list3{
+	width: 120px;
+	height: 12px;
+  }
+
+
+
 .slide {
     width: 100vw;
     height: 100vh;
@@ -8,13 +32,13 @@
     width: 400vw;
   }
   .one {
-    background: #efdefe;
+    background:white;
   }
   .two {
-    background: #a3f3d3;
+    background:white;
   }
   .three {
-    background: #0bbaa0;
+    background:white;
   }
   .four {
     background: #00dfdf;
@@ -36,7 +60,11 @@
       scrollbar-width: none;
       -ms-overflow-style: none;
     }
+    .outer-wrapper img{
+      margin-left: auto;
+      margin-right: auto;
     
+    }
         ::-webkit-scrollbar {
           display:none;
         }

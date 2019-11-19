@@ -1,8 +1,33 @@
+/*
+Amarelo: #FFC500;
+Azul: #0081BC;
+*/
+
+
+
 a:hover, a:focus, a:active {
 	color: #FFC500;
   }
 
+.card{
+  position: relative;
+  max-width: 300px;
+  height: auto;
+  background: #0081BC;
+  border-radius: 15px;
+  margin: 0 auto;
+  padding: 20px 20px;
+  box-shadow: 0 10px 15px;
+  transition: .1s;
+}
 
+.card img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 100px;
+}
 
   
 h1{
